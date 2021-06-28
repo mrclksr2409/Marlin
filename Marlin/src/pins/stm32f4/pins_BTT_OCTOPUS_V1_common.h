@@ -293,20 +293,20 @@
   #define Z_SERIAL_TX_PIN                   PC6
   #define Z_SERIAL_RX_PIN                   PC6
 
-  #define Z2_SERIAL_TX_PIN                  PC7
-  #define Z2_SERIAL_RX_PIN                  PC7
+  #define E0_SERIAL_TX_PIN                  PC7
+  #define E0_SERIAL_RX_PIN                  PC7
 
-  #define E0_SERIAL_TX_PIN                  PF2
-  #define E0_SERIAL_RX_PIN                  PF2
+  #define Z_SERIAL_TX_PIN                  PF2
+  #define Z_SERIAL_RX_PIN                  PF2
 
-  #define E1_SERIAL_TX_PIN                  PE4
-  #define E1_SERIAL_RX_PIN                  PE4
+  #define Z2_SERIAL_TX_PIN                  PE4
+  #define Z2_SERIAL_RX_PIN                  PE4
 
-  #define E2_SERIAL_TX_PIN                  PE1
-  #define E2_SERIAL_RX_PIN                  PE1
+  #define Z3_SERIAL_TX_PIN                  PE1
+  #define Z3_SERIAL_RX_PIN                  PE1
 
-  #define E3_SERIAL_TX_PIN                  PD3
-  #define E3_SERIAL_RX_PIN                  PD3
+  #define Z4_SERIAL_TX_PIN                  PD3
+  #define Z4_SERIAL_RX_PIN                  PD3
 
   // Reduce baud rate to improve software serial reliability
   #define TMC_BAUD_RATE                    19200
