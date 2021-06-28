@@ -151,18 +151,18 @@
 //
 // Steppers
 //
-#define X_STEP_PIN                          PF13  // MOTOR 0
-#define X_DIR_PIN                           PF12
-#define X_ENABLE_PIN                        PF14
-#ifndef X_CS_PIN
-  #define X_CS_PIN                          PC4
+#define Y_STEP_PIN                          PF13  // MOTOR 0
+#define Y_DIR_PIN                           PF12
+#define Y_ENABLE_PIN                        PF14
+#ifndef Y_CS_PIN
+  #define Y_CS_PIN                          PC4
 #endif
 
-#define Y_STEP_PIN                          PG0   // MOTOR 1
-#define Y_DIR_PIN                           PG1
-#define Y_ENABLE_PIN                        PF15
-#ifndef Y_CS_PIN
-  #define Y_CS_PIN                          PD11
+#define X_STEP_PIN                          PG0   // MOTOR 1
+#define X_DIR_PIN                           PG1
+#define X_ENABLE_PIN                        PF15
+#ifndef X_CS_PIN
+  #define X_CS_PIN                          PD11
 #endif
 
 #define E1_STEP_PIN                          PF11  // MOTOR 2
